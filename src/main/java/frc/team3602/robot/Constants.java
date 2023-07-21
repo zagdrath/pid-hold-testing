@@ -6,6 +6,14 @@
 
 package frc.team3602.robot;
 
-public final class Constants {
+public class Constants {
+  public static final int XBOX_CONTROLLER_PORT = 0;
 
+  public static final int ROTATE_MOTOR_CAN_ID = 1;
+
+  public static final double ROTATE_MOTOR_GEAR_RATIO = 0.0;
+
+  public static final double ROTATE_MOTOR_KP = 0.0;
+  public static final double ROTATE_MOTOR_KI = 0.0;
+  public static final double ROTATE_MOTOR_KD = 0.0;
 }
